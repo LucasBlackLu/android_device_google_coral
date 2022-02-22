@@ -15,6 +15,7 @@
 #
 
 # Inherit some common Derpfest stuff.
+TARGET_FACE_UNLOCK_SUPPORTED := false
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Inherit device configuration
