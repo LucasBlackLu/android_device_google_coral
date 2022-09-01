@@ -203,4 +203,7 @@
 
     <!-- the number of the max cached processes in the system. -->
     <integer name="config_customizedMaxCachedProcesses">64</integer>
+
+    <!-- Fingerprint from stock ROM -->
+    <string name="config_stockFingerprint" translatable="false">google/coral/coral:13/TP1A.221005.002.B2/9382335:user/release-keys</string>
 </resources>
