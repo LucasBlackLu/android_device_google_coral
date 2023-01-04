@@ -36,4 +36,7 @@
          should be either LOW (1) or HIGH (3).
     -->
     <integer name="config_vibration_supported_intensity_levels">3</integer>
+    
+    <!--Whether the Face enroll confirmation page show finish large icon. -->
+    <bool name="config_face_enroll_confirmation_show_illustration">false</bool>
 </resources>
