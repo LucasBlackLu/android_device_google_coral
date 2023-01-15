@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/commonsys-intf/display \
@@ -32,21 +29,10 @@ PRODUCT_COPY_FILES += \
 # Google Assistant
 PRODUCT_PRODUCT_PROPERTIES += ro.opa.eligible_device=true
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
-
-# Parts
-PRODUCT_PACKAGES += \
-    GoogleParts
-
 # RCS
 PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
-
-# Touch
-include hardware/google/pixel/touch/device.mk
 
 # Build necessary packages for system_ext
 
