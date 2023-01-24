@@ -259,11 +259,7 @@ system_ext/etc/permissions/com.google.android.camera.extensions.xml
 system_ext/framework/com.google.android.camera.extensions.jar
 
 # HBM
-<<<<<<< HEAD
 system_ext/priv-app/HbmSVManager/HbmSVManager.apk
-=======
-system_ext/priv-app/HbmSVManager/HbmSVManager.apk|d1064605f115bf0909a3890726015f1419ea543f
->>>>>>> 8ecaffc1 (floral: proprietary-files: add back proprietary files & update HbmSVManager)
 
 # Hotword
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
@@ -594,19 +590,13 @@ system_ext/etc/permissions/com.google.euiccpixel.xml
 system_ext/etc/permissions/google-ril.xml
 system_ext/framework/RadioConfigLib.jar
 system_ext/framework/google-ril.jar
-<<<<<<< HEAD
 system_ext/priv-app/CarrierSetup/CarrierSetup.apk;PRESIGNED
-=======
->>>>>>> 8ecaffc1 (floral: proprietary-files: add back proprietary files & update HbmSVManager)
 system_ext/priv-app/EuiccGoogle/esim-a1.img
 system_ext/priv-app/EuiccGoogle/esim-a2.img
 system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
 system_ext/priv-app/EuiccSupportPixel/esim-full-v1.img
 system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk;PRESIGNED
-<<<<<<< HEAD
 system_ext/priv-app/RilConfigService/RilConfigService.apk
-=======
->>>>>>> 8ecaffc1 (floral: proprietary-files: add back proprietary files & update HbmSVManager)
 system_ext/priv-app/grilservice/grilservice.apk;PRESIGNED
 
 # SecureUI
