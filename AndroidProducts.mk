@@ -25,11 +25,11 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_flame.mk \
     $(LOCAL_DIR)/aosp_coral_hwasan.mk \
     $(LOCAL_DIR)/aosp_flame_hwasan.mk \
-    $(LOCAL_DIR)/derp_coral.mk \
-    $(LOCAL_DIR)/derp_flame.mk
+    $(LOCAL_DIR)/tequila_coral.mk \
+    $(LOCAL_DIR)/tequila_flame.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_coral-userdebug \
     aosp_flame-userdebug \
-    derp_coral-userdebug \
-    derp_flame-userdebug
+    tequila_coral-userdebug \
+    tequila_flame-userdebug
