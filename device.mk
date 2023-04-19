@@ -1049,8 +1049,8 @@ ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 endif
 
 # Preopt SystemUI
-PRODUCT_DEXPREOPT_SPEED_APPS += SystemUIGoogle  # For internal
-PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI  # For AOSP
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUIGoogle
 
 # Compile SystemUI on device with `speed`.
 PRODUCT_PROPERTY_OVERRIDES += \
