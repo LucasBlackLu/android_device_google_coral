@@ -30,8 +30,13 @@ PRODUCT_NAME := derp_flame
 TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
 
+# Enable quick tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=flame \
     PRIVATE_BUILD_DESC="flame-user 13 TP1A.221005.002.B2 9382335 release-keys"
 
 BUILD_FINGERPRINT := google/flame/flame:13/TP1A.221005.002.B2/9382335:user/release-keys
+
+$(call inherit-product, vendor/google/flame/flame-vendor.mk)
