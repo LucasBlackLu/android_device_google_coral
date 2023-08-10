@@ -15,4 +15,7 @@ TARGET_SCREEN_HEIGHT := 3040
 TARGET_SCREEN_WIDTH := 1440
 TARGET_BOOT_ANIMATION_RES := 1440
 
+# Enable quick tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 $(call inherit-product, vendor/google/coral/coral-vendor.mk)

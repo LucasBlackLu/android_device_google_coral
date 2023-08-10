@@ -15,4 +15,7 @@ TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Enable quick tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 $(call inherit-product, vendor/google/flame/flame-vendor.mk)
