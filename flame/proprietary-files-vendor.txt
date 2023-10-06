@@ -1645,3 +1645,15 @@ vendor/lib/libprotobuf-cpp-lite-3.9.1.so
 vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
 vendor/lib/libprotobuf-cpp-full-3.9.1.so
 vendor/lib64/libprotobuf-cpp-full-3.9.1.so
+
+# Nos - from stock
+vendor/lib64/libnos.so
+vendor/lib64/libnos_client_citadel.so
+vendor/lib64/libnos_datagram.so
+vendor/lib64/libnos_datagram_citadel.so
+vendor/lib64/libnos_transport.so
+vendor/lib64/libnosprotos.so
+vendor/lib64/nos_app_avb.so
+vendor/lib64/nos_app_identity.so
+vendor/lib64/nos_app_keymaster.so
+vendor/lib64/nos_app_weaver.so
