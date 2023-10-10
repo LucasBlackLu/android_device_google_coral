@@ -568,10 +568,6 @@ PRODUCT_PACKAGES += \
     nos_app_keymaster:64 \
     nos_app_weaver:64
 
-# Protobuf
-PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full-vendorcompat
-
 # Sensors
 PRODUCT_PACKAGES += \
     libsensorndkbridge
