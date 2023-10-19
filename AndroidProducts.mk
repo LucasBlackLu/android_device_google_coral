@@ -31,7 +31,9 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     aosp_coral-userdebug \
     aosp_flame-userdebug \
-	derp_flame-userdebug \
-	derp_coral-userdebug \
-	derp_flame-eng \
-	derp_coral-eng \
+    derp_coral-userdebug \
+    derp_flame-userdebug \
+    derp_coral-eng \
+    derp_flame-eng \
+    derp_coral-user \
+    derp_flame-user \
