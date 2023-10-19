@@ -35,4 +35,6 @@ COMMON_LUNCH_CHOICES := \
     derp_coral-userdebug \
     derp_flame-eng \
     derp_coral-eng \
+    derp_flame-user \
+    derp_coral-user \
 
