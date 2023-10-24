@@ -33,4 +33,7 @@
 
     <!-- Wireless charger -->
     <bool name="config_nfc_conflict_with_wlc">true</bool>
+
+    <!-- BouncerUserSwitcher -->
+    <bool name="config_enableBouncerUserSwitcher">true</bool>
 </resources>
