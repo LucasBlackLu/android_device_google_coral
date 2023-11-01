@@ -15,6 +15,9 @@ BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/googlebattery
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/confirmationui_hal
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/powerstats
 
+# turbo adapter
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/turbo_adapter
+
 # system_ext
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += device/google/coral/sepolicy/system_ext/public
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += device/google/coral/sepolicy/system_ext/private
