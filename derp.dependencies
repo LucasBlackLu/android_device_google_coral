@@ -1,0 +1,20 @@
+[
+   {
+     "repository": "kernel_google_msm-4.14",
+     "target_path": "kernel/google/msm-4.14",
+     "branch":"13",
+     "remote":"LucasBlackLu",
+   },
+   {
+      "repository":"proprietary_vendor_google_coral",
+      "target_path":"vendor/google/coral",
+      "branch":"13",
+      "remote":"LucasBlackLu"
+   },
+   {
+      "repository":"proprietary_vendor_google_flame",
+      "target_path":"vendor/google/flame",
+      "branch":"13",
+      "remote":"LucasBlackLu"
+   }
+]
