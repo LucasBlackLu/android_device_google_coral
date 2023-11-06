@@ -64,6 +64,7 @@ BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/1d84000.ufshc
 BOARD_KERNEL_CMDLINE += loop.max_part=7
 BOARD_KERNEL_CMDLINE += loop.hw_queue_depth=31
 BOARD_KERNEL_CMDLINE += cgroup_disable=pressure
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 BOARD_KERNEL_BASE        := 0x00000000
 BOARD_KERNEL_PAGESIZE    := 4096
